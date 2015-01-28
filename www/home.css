@@ -1,0 +1,62 @@
+/* CSS Document */
+
+body{
+background-color: #99CC66;
+background-image: url(food1.jpg);
+}
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+	line-height:10px;
+	background-color:#FFFF66;
+	height:10px;
+	width:1340px;
+	color: #FF6600;
+	font-weight: bolder;
+	float:none;
+	padding:5px;
+	text-align: center;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 16px;
+	font-style: oblique;
+}
+#image{
+	width:401px;
+	height:490px;
+	float:left;
+	background-image: url(food7.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	font-style: oblique;
+	color: #CCFF66;
+	font-weight: bolder;
+	text-decoration: blink;
+	}
+#section {
+	width:910px;
+	height:490px;
+	float:right;
+	padding:10px;
+	background-color: #66FF99;
+}
+#footer {
+	background-color:black;
+	color: #CCFFCC;
+	clear:both;
+	text-align:center;
+	padding:5px;
+	font-style: italic;
+}
+a:link{
+color: #66FF33;
+}
+a:visited{
+color: #FF3300;}
+a:hover{
+color:#CCCCCC;}

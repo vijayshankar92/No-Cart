@@ -1,0 +1,65 @@
+/* CSS Document */
+
+body{
+background-color: #99CC66;
+}
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#section {
+	width:1310px;
+	height:800px;
+	float:center;
+	padding:10px;
+	background-color: #66FF99;
+}
+h1{
+font-weight:bold;
+}
+#passresult {
+    display:block;
+    width:100px;
+    padding:3px;
+    text-align:center;
+    color:white;
+    font-size:12px;
+    font-weight:bold;
+}
+#passresult.weak{
+    background:red;
+}
+#passresult.normal{
+    background:orange;
+}
+#passresult.strong{
+    background:blue;
+}
+#passresult.verystrong{
+    background:green;
+  }  
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:40px;
+    width:1360px;
+    float:left;
+    padding:5px; 
+}
+span
+{
+color:red;
+}
+a:link{
+color:blue;
+}
+a:visited{
+color: blue;}
+#success{
+color:blue;
+}
+#error{
+color:red;
+}
